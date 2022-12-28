@@ -4,8 +4,12 @@
   <meta charset="utf-8">
   <title>Hash Studios</title>
   <style>
+    @font-face {
+        font-family: interExtraBold;
+        src: url(https://github.com/hashstudiosllc/hashstudios.github.io/blob/main/fonts/Inter/static/Inter-ExtraBold.ttf);
+    }
     body {
-      font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+      font-family: 'interExtraBold', sans-serif;
       margin: 0;
       padding: 0;
     }
