@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hash Studios</title>
+  <style>
+    body {
+      font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fff;
+      border-bottom: 1px solid #d1d1d1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 50px;
+      margin: 0;
+    }
+    .logo h1 {
+      color: #000;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0 0 0 10px;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    nav li {
+      margin: 0 10px;
+    }
+    nav a {
+      color: #000;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px;
+    }
+    .card {
+      background-color: #fff;
+      border: 1px solid #d1d1d1;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+    }
+    .card h2 {
+      margin: 10px 0;
+      color: #000;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .card p {
+      margin: 10px 0;
+      text-align: center;
+      color: #777;
+      font-size: 14px;
+    }
+    footer {
+      background-color: #f3f3f3;
+      border-top: 1px solid #d1d1d1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    footer p {
+      color: #777;
+      font-size: 14px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Hash Studios logo">
